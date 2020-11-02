@@ -1,0 +1,263 @@
+@media only screen and (max-width:450px) {
+    header {
+        .container {
+            padding: 0 20px;
+            padding-top: 50px;
+
+            .logo {
+                width: 100%;
+
+                img {
+                    max-width: 150px;
+                }
+            }
+
+            .btn-try {
+                max-width: 100px;
+                height: 35px;
+                border-radius: 1.5rem;
+                font-size: 13px;
+            }
+
+        }
+    }
+
+    .heroArea {
+        margin-top: 5rem;
+
+        .container {
+            .texto {
+                padding: 20px;
+                margin-bottom: 7rem;
+
+                h1 {
+
+                    font-size: 1.7rem;
+                    margin-bottom: 20px;
+                }
+
+                .btn-getStart {
+                    @include btn;
+                    width: 220px;
+                    height: 40px;
+                    font-size: 13px;
+                    font-weight: 600;
+                }
+            }
+
+            .imagen {
+                max-width: 320px;
+                margin-bottom: 100px;
+
+                img {
+                    width: 100%;
+                }
+            }
+
+            .numbers {
+                display: flex;
+                flex-direction: column;
+
+                .box {
+                    margin-bottom: 5rem;
+
+                    img {
+                        width: 100%;
+                        max-width: 30px;
+                    }
+
+                    h2 {
+                        font-size: 3.5rem;
+                    }
+
+                    p {
+                        font-size: 14px;
+                    }
+                }
+            }
+        }
+    }
+
+    .cardsSection {
+        width: 100%;
+        margin-top: 0px;
+
+        .top {
+            padding-top: 110px;
+            margin-bottom: 120px;
+            height: 720px;
+            background:
+                url(../images/bg-section-top-mobile-1.svg) top no-repeat,
+                url(../images/bg-section-bottom-mobile-1.svg) bottom no-repeat;
+        }
+
+        .bottom {
+            padding-top: 100px;
+            width: 100%;
+            height: 770px;
+            background:
+                url(../images/bg-section-top-mobile-2.svg) top no-repeat,
+                url(../images/bg-section-bottom-mobile-2.svg) bottom no-repeat;
+        }
+
+        .center {
+            margin-bottom: 120px;
+
+            .container {
+                display: flex;
+                flex-direction: column;
+
+                .texto {
+                    text-align: center;
+                    padding: 0 15px;
+                    max-width: 380px;
+
+                    h3 {
+                        font-size: 1.5rem;
+                        margin-bottom: 20px;
+                    }
+
+                    p {
+                        font-weight: 500;
+                    }
+                }
+
+                .imagen {
+                    padding-top: 50px;
+                    padding-bottom: 5rem;
+                    width: 100%;
+                    max-width: 250px;
+
+                    img {
+                        width: 100%;
+                    }
+                }
+
+            }
+        }
+
+        .cardBox {
+            .blueBackground {
+                height: 570px;
+
+                .container {
+
+                    flex-direction: column-reverse;
+
+                    .texto {
+                        text-align: center;
+
+                        h3 {
+                            font-size: 1.5rem;
+                            margin-bottom: 20px;
+                        }
+
+                        p {
+                            font-weight: 500;
+                        }
+                    }
+
+                    .imagen {
+                        padding-top: 50px;
+                        padding-bottom: 5rem;
+                        width: 100%;
+                        max-width: 250px;
+
+                        img {
+                            width: 100%;
+                        }
+                    }
+
+                }
+            }
+        }
+    }
+
+    .bannerBottom {
+
+        margin-top: 100px;
+
+        .container {
+            .texto {
+                h3 {
+                    font-size: 1.8rem
+                }
+
+                .btn-getStart {
+                    @include btn;
+                    width: 250px;
+                    height: 45px;
+                    font-size: 13px;
+                    font-weight: 600;
+                }
+            }
+        }
+    }
+
+    footer {
+        margin-top: 250px;
+        padding-top: 50px;
+        width: 100%;
+        height: 600px;
+        background:
+            url(../images/bg-footer-top-mobile.svg) top no-repeat;
+
+        .cyanBG {
+            height: 850px;
+
+            .container {
+                padding: 0px 20px;
+                padding-top: 120px;
+                flex-direction: column-reverse;
+
+                .companyInfo {
+
+
+                    .logo {
+                        margin-bottom: 2rem;
+                        width: 100%;
+                        max-width: 200px;
+
+                        img {
+                            width: 100%;
+                        }
+
+                        ;
+                    }
+
+                }
+
+                .newsletter {
+
+                    .texto {
+
+                        h4 {font-size: 1.4rem;}
+
+                        p {font-size: 15px;}
+                    }
+
+                    form {
+                        float: right;
+                       position: relative;
+                        margin-bottom: 8rem;
+                        flex-direction: column;
+                       
+                        input {
+                            max-width: 100%;
+                        }
+
+                        .btnform {
+                            margin-top: 1rem;
+                            display: inline-block;
+                          position: absolute;
+                          right: 0;
+                          top: 50px;
+                           
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+}

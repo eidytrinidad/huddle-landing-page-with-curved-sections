@@ -1,0 +1,45 @@
+//## Colors
+
+//### Primary
+
+// Fonts
+
+$Pink: hsl(322, 100%, 66%);
+
+// ### Neutral
+
+$VeryDarkCyan: hsl(192, 100%, 9%);
+$VeryPaleBlue: #f5faff;
+$White:#fff;
+
+
+// ## Typography
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&family=Poppins:wght@700&display=swap');
+
+// ### Headings
+
+$HeadingsFamily: 'Poppins', sans-serif;
+
+// ### Body
+$BodyFamily: 'Open Sans', sans-serif;
+
+@mixin btn {
+    color:$White;
+    background-color: $Pink;
+    width: 100%;
+    box-shadow: 2px 2px 13px 0px rgba(0,0,0,0.75);
+    font-size: 1.1rem;
+    max-width: 350px;
+    height: 60px;
+    border: none;
+    border-radius: 2rem;
+    transition:all 300ms ease-in-out;
+    &:focus{
+        outline: none;
+    }
+
+    &:hover{
+        background-color: darken($color: $Pink, $amount: 10);
+        cursor: pointer;
+    }
+}

@@ -1,0 +1,22 @@
+@import 'base.scss';
+@import 'header.scss';
+@import 'heroArea';
+@import 'cards';
+@import 'bannerBottom';
+@import 'footer.scss';
+@import 'mediaQ';
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body,html{
+    font-family: $BodyFamily;
+    background-color: $White;
+}
+.container{
+    width: 100%;
+    max-width: 1300px;
+    margin: auto;
+}

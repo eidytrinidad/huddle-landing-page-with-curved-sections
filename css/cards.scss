@@ -1,0 +1,101 @@
+.cardsSection {
+    width: 100%;
+    margin-top: 150px;
+
+    .top {
+        padding-top: 160px;
+        margin-bottom: 100px;
+        width: 100%;
+        height: 700px;
+        background:
+            url(../images/bg-section-top-desktop-1.svg) top no-repeat,
+            url(../images/bg-section-bottom-desktop-1.svg) bottom no-repeat;
+    }
+
+    .bottom {
+        padding-top: 150px;
+        width: 100%;
+        height: 700px;
+        background:
+            url(../images/bg-section-top-desktop-2.svg) top no-repeat,
+            url(../images/bg-section-bottom-desktop-2.svg) bottom no-repeat;
+    }
+
+    .center{
+        margin-bottom: 100px;
+        .container {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+           
+
+            .texto {
+                width: 100%;
+                max-width: 490px;
+                color: $VeryDarkCyan;
+
+                h3 {
+                    font-size: 2rem;
+                    font-family: $HeadingsFamily;
+                    margin-bottom: 20px;
+                }
+
+                p {
+                    font-weight: 500;
+                }
+            }
+
+            .imagen {
+                width: 100%;
+                max-width: 400px;
+
+                img {
+                    width: 100%;
+                }
+            }
+
+        }
+    }
+
+    .cardBox {
+        .blueBackground {
+            background: $VeryPaleBlue;
+            width: 100%;
+            height: 420px;
+
+            .container {
+                padding-top: 2rem;
+                display: flex;
+                justify-content: space-around;
+                align-items: center;
+               
+
+                .texto {
+                    width: 100%;
+                    max-width: 490px;
+                    color: $VeryDarkCyan;
+
+                    h3 {
+                        font-size: 2rem;
+                        font-family: $HeadingsFamily;
+                        margin-bottom: 20px;
+                    }
+
+                    p {
+                        font-weight: 500;
+                    }
+                }
+
+                .imagen {
+                    width: 100%;
+                    max-width: 400px;
+
+                    img {
+                        width: 100%;
+                    }
+                }
+
+            }
+        }
+    }
+}
